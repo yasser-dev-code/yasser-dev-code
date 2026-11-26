@@ -1,0 +1,43 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="24" x2="1120" y2="336" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#071426"/>
+      <stop offset="0.55" stop-color="#0B1B33"/>
+      <stop offset="1" stop-color="#102B46"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="190" y1="90" x2="1000" y2="290" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3776AB"/>
+      <stop offset="0.52" stop-color="#5AB0F2"/>
+      <stop offset="1" stop-color="#FFD343"/>
+    </linearGradient>
+    <linearGradient id="snake" x1="775" y1="70" x2="1050" y2="285" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFD343"/>
+      <stop offset="1" stop-color="#3776AB"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="16" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" stroke="#65B8F2" stroke-opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="360" rx="30" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="30" fill="url(#grid)"/>
+  <circle cx="1040" cy="38" r="170" fill="#3776AB" fill-opacity="0.11"/>
+  <circle cx="1110" cy="340" r="210" fill="#FFD343" fill-opacity="0.08"/>
+  <rect x="58" y="50" width="1084" height="260" rx="22" stroke="url(#accent)" stroke-opacity="0.38"/>
+  <rect x="84" y="78" width="8" height="204" rx="4" fill="url(#accent)"/>
+  <text x="125" y="128" fill="#8CCBFA" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="600" letter-spacing="4">FULL-STACK DEVELOPER</text>
+  <text x="120" y="200" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="750" letter-spacing="-1">Yasser Oussahel</text>
+  <text x="124" y="246" fill="#B8C7D9" font-family="Segoe UI, Arial, sans-serif" font-size="25">Python enthusiast • practical software • thoughtful engineering</text>
+  <g transform="translate(860 89)" filter="url(#glow)">
+    <path d="M19 82C19 50 39 31 73 31H122C150 31 166 47 166 73V110H91C62 110 42 128 42 155V173H19C-8 173-21 151-21 124V105C-21 91-9 82 19 82Z" fill="#3776AB"/>
+    <circle cx="116" cy="58" r="7" fill="#EAF6FF"/>
+    <path d="M188 106C215 106 228 128 228 155V174C228 189 216 198 188 198V218C188 250 168 269 134 269H85C57 269 41 253 41 227V190H116C145 190 165 172 165 145V127H188V106Z" fill="#FFD343"/>
+    <circle cx="91" cy="242" r="7" fill="#14253B"/>
+  </g>
+  <path d="M1020 278C1070 261 1093 223 1090 176" stroke="url(#snake)" stroke-width="5" stroke-linecap="round" stroke-dasharray="9 13"/>
+  <circle cx="1090" cy="170" r="7" fill="#FFD343"/>
+  <circle cx="1020" cy="278" r="7" fill="#3776AB"/>
+</svg>
