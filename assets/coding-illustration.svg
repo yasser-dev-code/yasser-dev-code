@@ -1,0 +1,27 @@
+<svg width="900" height="420" viewBox="0 0 900 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="panel" x1="50" y1="30" x2="850" y2="390" gradientUnits="userSpaceOnUse"><stop stop-color="#0B172A"/><stop offset="1" stop-color="#122840"/></linearGradient>
+    <linearGradient id="line" x1="125" y1="100" x2="750" y2="320" gradientUnits="userSpaceOnUse"><stop stop-color="#3776AB"/><stop offset="1" stop-color="#FFD343"/></linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#020817" flood-opacity="0.45"/></filter>
+  </defs>
+  <rect x="40" y="24" width="820" height="364" rx="26" fill="url(#panel)" filter="url(#shadow)"/>
+  <rect x="40" y="24" width="820" height="58" rx="26" fill="#172D47"/>
+  <rect x="40" y="62" width="820" height="20" fill="#172D47"/>
+  <circle cx="78" cy="53" r="8" fill="#FF6B6B"/><circle cx="105" cy="53" r="8" fill="#FFD343"/><circle cx="132" cy="53" r="8" fill="#4FD1A1"/>
+  <rect x="176" y="41" width="275" height="24" rx="12" fill="#0D1E32"/><text x="197" y="58" fill="#8BA4BC" font-family="Consolas, monospace" font-size="13">yasser@dev: ~/ideas/python</text>
+  <rect x="74" y="108" width="174" height="246" rx="14" fill="#0A1424"/>
+  <text x="96" y="140" fill="#66829E" font-family="Consolas, monospace" font-size="13">PROJECT</text>
+  <text x="96" y="174" fill="#E6F0FA" font-family="Consolas, monospace" font-size="14">▾ src</text>
+  <text x="111" y="204" fill="#76B6E8" font-family="Consolas, monospace" font-size="14">◇ app.py</text>
+  <text x="111" y="234" fill="#B5C7D9" font-family="Consolas, monospace" font-size="14">◇ ideas.py</text>
+  <text x="111" y="264" fill="#B5C7D9" font-family="Consolas, monospace" font-size="14">◇ tests.py</text>
+  <text x="96" y="304" fill="#E6F0FA" font-family="Consolas, monospace" font-size="14">▸ assets</text>
+  <text x="96" y="334" fill="#E6F0FA" font-family="Consolas, monospace" font-size="14"># README.md</text>
+  <text x="286" y="128" fill="#66829E" font-family="Consolas, monospace" font-size="13">01</text><text x="329" y="128" fill="#FF7AA2" font-family="Consolas, monospace" font-size="16">from</text><text x="381" y="128" fill="#BFD8ED" font-family="Consolas, monospace" font-size="16"> ideas </text><text x="438" y="128" fill="#FF7AA2" font-family="Consolas, monospace" font-size="16">import</text><text x="500" y="128" fill="#BFD8ED" font-family="Consolas, monospace" font-size="16"> build</text>
+  <text x="286" y="169" fill="#66829E" font-family="Consolas, monospace" font-size="13">03</text><text x="329" y="169" fill="#FF7AA2" font-family="Consolas, monospace" font-size="16">def</text><text x="365" y="169" fill="#6FC3FF" font-family="Consolas, monospace" font-size="16"> create_solution</text><text x="510" y="169" fill="#BFD8ED" font-family="Consolas, monospace" font-size="16">(idea):</text>
+  <text x="286" y="204" fill="#66829E" font-family="Consolas, monospace" font-size="13">04</text><text x="358" y="204" fill="#FF7AA2" font-family="Consolas, monospace" font-size="16">return</text><text x="420" y="204" fill="#FFD343" font-family="Consolas, monospace" font-size="16"> build</text><text x="473" y="204" fill="#BFD8ED" font-family="Consolas, monospace" font-size="16">(</text><text x="484" y="204" fill="#92D192" font-family="Consolas, monospace" font-size="16">idea</text><text x="519" y="204" fill="#BFD8ED" font-family="Consolas, monospace" font-size="16">)</text>
+  <text x="286" y="259" fill="#66829E" font-family="Consolas, monospace" font-size="13">06</text><text x="329" y="259" fill="#8BA4BC" font-family="Consolas, monospace" font-size="16"># practical • powerful • elegant</text>
+  <text x="286" y="302" fill="#66829E" font-family="Consolas, monospace" font-size="13">07</text><text x="329" y="302" fill="#6FC3FF" font-family="Consolas, monospace" font-size="16">software</text><text x="405" y="302" fill="#BFD8ED" font-family="Consolas, monospace" font-size="16"> = create_solution(</text><text x="578" y="302" fill="#92D192" font-family="Consolas, monospace" font-size="16">"idea"</text><text x="637" y="302" fill="#BFD8ED" font-family="Consolas, monospace" font-size="16">)</text>
+  <rect x="286" y="330" width="465" height="3" rx="1.5" fill="url(#line)"/>
+  <circle cx="782" cy="130" r="42" fill="#3776AB" fill-opacity="0.18"/><text x="759" y="144" fill="#FFD343" font-family="Consolas, monospace" font-size="40" font-weight="700">Py</text>
+</svg>
